@@ -4,7 +4,7 @@ var shortid = require('shortid');
 var mongodb = require('mongodb').MongoClient;
 
 var port = process.env.PORT || 5000;
-var url = "mongodb://localhost:27017/urlshortener";
+var url = "mongodb://sheen:sheen123@ds149030.mlab.com:49030/sheeninc";
 
 var app = express();
 
